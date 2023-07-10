@@ -1,0 +1,139 @@
+body{
+	background-color: #F5F5F5;
+    nav{
+        display: flex;
+        margin-left: 55px;        
+    } 
+    .navlogo{
+        margin-left: 29px;
+        display: flex;
+        vertical-align: top;
+        margin-top: 11px;
+    }
+}
+li{
+    display: flex;
+    margin-top: 21px;
+    margin-left: 35px;
+    font-size: 11px;
+    font-family: roboto;
+    a{
+        color: #000000;
+    }
+
+}
+h2{
+    margin-top: 42px;
+    margin-left: 90px;
+    color: #000000;
+    font-size: 24px;
+    font-family: Roboto;
+}
+.cards{
+    display: flex;
+    margin-left: 90px;
+    .card{ 
+        margin-right: 40px;
+        margin-top: 27px;
+  }
+  .h-1{
+    @include h-ert;
+    left: 135px;
+    
+}
+.h-2{
+    @include h-ert;
+    left: 540px;
+}
+.h-3{
+    @include h-ert;
+    left: 940px;
+}
+}
+.whitecard{
+    display: flex;
+    margin-left: 90px;
+    .card1{
+        width: 362px;
+        height: 171px;
+        background-color: #FFFFFF;
+    }
+    .card2{
+        width: 362px;
+        height: 171px;
+        background-color: #FFFFFF;
+        margin-left: 40px;
+    }
+    .card3{
+        width: 362px;
+        height: 171px;
+        background-color: #FFFFFF;
+        margin-left: 40px;
+    }
+}
+.card2{
+    h4{
+        @include pirv;
+    }
+}
+.card3{
+    h4{
+        @include pirv;
+    }
+}
+.card1{
+    h4{
+        @include pirv;
+    }
+}
+.yvela{
+    display: flex;
+    margin-top: 115px;
+    .s-2div{
+        margin-right: 42px;
+        margin-left: 90px;
+        p{
+            position: absolute;
+            top: 806px;
+            left: 360px;
+            display: flex;
+        }
+        img{
+            margin-bottom: 42px;
+        }
+    }
+    .mesameseqcia{
+        img{
+            margin-bottom: 98px;
+        }
+    }
+}
+footer{
+	background-color: #243043;
+	height: 201px;
+    .qardebi{
+        display: flex;
+        margin-left: 127px;
+        .p-1{
+            margin-top: 59px;
+            line-height: 27px;
+            margin-right: 96px;
+            @include futer;
+            p{
+                @include futer;
+            }
+        }
+    }
+}
+.s-2div{
+    p{
+        @include ferebi;
+    }
+}
+.geol{
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 50px;
+}
